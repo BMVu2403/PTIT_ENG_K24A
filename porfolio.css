@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+      padding: 15px 0;
+    }
+    
+    .navbar-nav .nav-link {
+      font-weight: bold;
+      color: #000; 
+      font-size: 18px; 
+    }
+    
+    .navbar-toggler {
+      border: none;
+      outline: none;
+    }
+    
+    .navbar-toggler:focus {
+      box-shadow: none;
+    }
+    
+   
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px 0;
+    }
+    
+    .hero-content {
+      max-width: 600px;
+    }
+    
+  
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      color: #000;
+    }
+    
+    .hero p {
+      font-size: 1.2rem;
+      color: #000;
+      font-weight: 500;
+    }
+    
+  
+    .hero-image {
+      flex-shrink: 0;
+    }
+    
+    .hero-image img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+    }
+    
+   /*Phần Recent Posts*/
+   .bg-lightblue {
+      background-color: #f4faff; 
+      margin-top: 50px;
+  }
+  
+  .view-all {
+      font-size: 0.9rem;
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: 500;
+  }
+  
+  .view-all:hover {
+      text-decoration: underline;
+  }
+  
+  .post-card {
+      background: white;
+      border-radius: 5px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+      .post-card {
+          margin-bottom: 15px;
+      }
+  }
+  
+  /* Featured Works */
+  .featured-works img {
+      width: 100%;
+      border-radius: 10px;
+  }
+  .badge-year {
+      background-color: #0d6efd;
+      color: white;
+      padding: 5px 10px;
+      font-size: 14px;
+      border-radius: 5px;
+  }
+  .work-item {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 20px;
+  }
+  
+  /* Footer */
+  .footer {
+      text-align: center;
+      padding: 20px 0;
+  }
+  .footer-icons a {
+      color: #333;
+      font-size: 24px;
+      margin: 0 15px;
+      text-decoration: none;
+  }
+  .badge-year{
+    background: #142850;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 15px;
+    font-size: 18px;
+  }
+  
